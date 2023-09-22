@@ -1,0 +1,55 @@
+.firstclass{
+    border: 2pt solid rgb(13, 0, 255);
+    height: max-content;
+    position: absolute;
+    border-radius: 22pt;
+    background-color:rgb(0, 0, 0);
+    margin-top: 3%;  
+    margin-left: 30%; 
+}
+#btn-i{
+    text-align: center;
+}
+.firstclass button{
+    height: 70pt;
+    width: 68pt;
+    color: white;
+    background-color: rgba(58, 55, 55, 0.904);
+    border: none;
+    border-radius: 45px;
+    font-size: 35px;
+    margin-top: 5;
+    margin-left: 5;
+    
+    
+}
+.firstclass input{
+    height: 100pt;
+    font-size:xx-large;
+    border-top-left-radius: 20pt;
+    border-top-right-radius: 20pt;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border :1pt solid black; 
+    text-align: end;  
+}
+#btn{
+    width: 46%;
+    border-radius: 50px; 
+    border: none;
+}
+@media screen and (max-width: 1400px){
+
+    .firstclass{
+    border: 2pt solid rgb(0, 0, 0);
+    height: max-content;
+    width: max-content;
+    position: absolute;
+    border-radius: 23pt;
+    background-color:black;
+    /* margin-top: 3%;   */
+    margin-left: 0;
+    
+}
+}
+
